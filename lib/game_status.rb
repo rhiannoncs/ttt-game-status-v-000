@@ -47,7 +47,7 @@ def winner(board)
   if won?(board)
     win_combination = won?(board)
     puts win_combination
-    game_winner = win_combination[0]
+    game_winner = board[win_combination[0]]
     puts game_winner
   end
   game_winner
